@@ -8,7 +8,7 @@ class Solution {
             double avg = (nums[i] + nums[j]) /2.0;
 
             if(hm.containsKey(avg)){
-                hm.put(avg,hm.get(avg)+1);
+                hm.put(avg,hm.get(avg)-1);
             }else{
                 hm.put(avg,1);
             }
